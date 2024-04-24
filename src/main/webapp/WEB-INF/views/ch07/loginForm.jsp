@@ -53,7 +53,6 @@
 			                           <div class="form-group mb-2">
 			                               <label for="mpassword">패스워드</label>
 			                               <input type="password" class="form-control" id="mpassword" name="mpassword" value="${ch04LoginForm.mpassword}" >
-			                               
 			                           </div>
 				                          <!-- 제출 버튼: 형식의 데이터를 서버로 보내겠다. -->
 			                           <button type="submit" class="btn btn-info btn-sm mb-2">로그인</button>

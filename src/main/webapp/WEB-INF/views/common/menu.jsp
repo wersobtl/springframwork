@@ -215,5 +215,70 @@
 			</div>
 		</div>
 	</div>
+	
+	
+	<div class="accordion-item">
+		<h2 class="accordion-header">
+			<button class="accordion-button ${chNum=='ch09'?'':'collapsed'}"
+				type="button" data-bs-toggle="collapse"
+				data-bs-target="#collapseNine" aria-expanded="false"
+				aria-controls="collapseNine">Ch09.fileUploadForm  </button>
+		</h2>
+		<div id="collapseNine"
+			class="accordion-collapse collapse ${chNum=='ch09'?'show':''}"
+			data-bs-parent="#accordionExample">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="${pageContext.request.contextPath}/ch09/fileUploadForm">파일 업로드 폼</a></li>
+					<li><a href="${pageContext.request.contextPath}/ch09/fileDownload">파일 다운로드</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="accordion-item">
+		<h2 class="accordion-header">
+			<button class="accordion-button ${chNum=='ch10'?'':'collapsed'}"
+				type="button" data-bs-toggle="collapse"
+				data-bs-target="#collapseTen" aria-expanded="false"
+				aria-controls="collapseTen">Ch10.try_catch</button>
+		</h2>
+		<div id="collapseTen"
+			class="accordion-collapse collapse ${chNum=='ch10'?'show':''}"
+			data-bs-parent="#accordionExample">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="${pageContext.request.contextPath}/ch10/handlingException1">try-catch 이용</a></li>
+					<li><a href="${pageContext.request.contextPath}/ch10/handlingException2">@ExceptionHandler 이용</a></li>
+					<li><a href="${pageContext.request.contextPath}/ch10/handlingException3">사용자 정의 예외 처리 이용</a></li>
+					<li><a href="${pageContext.request.contextPath}/ch10/handlingException4">기타 500 예외처리</a></li>
+					<li><a href="${pageContext.request.contextPath}/ch10/ak47">404처리</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="accordion-item">
+		<h2 class="accordion-header">
+			<button class="accordion-button ${chNum=='ch11'?'':'collapsed'}"
+				type="button" data-bs-toggle="collapse"
+				data-bs-target="#collapseEleven" aria-expanded="false"
+				aria-controls="collapseEleven">Ch11.국제화</button>
+		</h2>
+		<div id="collapseEleven"
+			class="accordion-collapse collapse ${chNum=='ch10'?'show':''}"
+			data-bs-parent="#accordionExample">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="${pageContext.request.contextPath}/ch10/handlingException1">try-catch 이용</a></li>
+					<li><a href="${pageContext.request.contextPath}/ch10/handlingException2">@ExceptionHandler 이용</a></li>
+					<li><a href="${pageContext.request.contextPath}/ch10/handlingException3">사용자 정의 예외 처리 이용</a></li>
+					<li><a href="${pageContext.request.contextPath}/ch10/handlingException4">기타 500 예외처리</a></li>
+					<li><a href="${pageContext.request.contextPath}/ch11/joinForm">다국어 처리</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
 
 </div>

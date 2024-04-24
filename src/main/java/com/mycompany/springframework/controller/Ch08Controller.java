@@ -50,9 +50,7 @@ public class Ch08Controller {
 	@RequestMapping("/cartView")
 	public String cartView(HttpSession session) {
 		//장바구니를 세션에서 가져오기
-		
 		List<Ch08CartItem> cart =(List<Ch08CartItem>)session.getAttribute("cart");
-		
 		//가져온 장바구니가 없을 경우 새로 장바구니를 생성해서 session 범위에 저장
 		if(cart == null) {
 			cart = new ArrayList<Ch08CartItem>();
