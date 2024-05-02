@@ -280,5 +280,64 @@
 		</div>
 	</div>
 	
+	
+	<div class="accordion-item">
+		<h2 class="accordion-header">
+			<button class="accordion-button ${chNum=='ch13'?'':'collapsed'}"
+				type="button" data-bs-toggle="collapse"
+				data-bs-target="#collapse13" aria-expanded="false"
+				aria-controls="collapse13">Ch13.데이터베이스 연동</button>
+		</h2>
+		<div id="collapse13"
+			class="accordion-collapse collapse ${chNum=='ch13'?'show':''}"
+			data-bs-parent="#accordionExample">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="${pageContext.request.contextPath}/ch13/writeBoardForm">데이터 넣기</a></li>
+					<li><a href="${pageContext.request.contextPath}/ch13/boardList">리스트 보기</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="accordion-item">
+		<h2 class="accordion-header">
+			<button class="accordion-button ${chNum=='ch15'?'':'collapsed'}"
+				type="button" data-bs-toggle="collapse"
+				data-bs-target="#collapse15" aria-expanded="false"
+				aria-controls="collapse15">Ch15.계좌정보</button>
+		</h2>
+		<div id="collapse15"
+			class="accordion-collapse collapse ${chNum=='ch15'?'show':''}"
+			data-bs-parent="#accordionExample">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="${pageContext.request.contextPath}/ch15/accountList">계좌이체하기</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="accordion-item">
+		<h2 class="accordion-header">
+			<button class="accordion-button ${chNum=='ch17'?'':'collapsed'}"
+				type="button" data-bs-toggle="collapse"
+				data-bs-target="#collapse17" aria-expanded="false"
+				aria-controls="collapse17">Ch17.로그인</button>
+		</h2>
+		<div id="collapse17"
+			class="accordion-collapse collapse ${chNum=='ch17'?'show':''}"
+			data-bs-parent="#accordionExample">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="${pageContext.request.contextPath}/ch17/loginForm">로그인</a></li>
+					<li><a href="${pageContext.request.contextPath}/ch17/admin/page">ADMIN페이지</a></li>
+					<li><a href="${pageContext.request.contextPath}/ch17/manager/page">MANAGER페이지</a></li>
+					<li><a href="${pageContext.request.contextPath}/ch17/user/page">USER페이지</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
 
 </div>

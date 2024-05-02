@@ -27,7 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Controller
 @Slf4j
-@RequestMapping("/ch02")
+@RequestMapping("/ch02") 
 public class Ch02Controller {
 
 	@RequestMapping("/getMethod")
